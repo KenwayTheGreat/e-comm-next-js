@@ -7,6 +7,11 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.7",
+    "@babel/preset-react": "^7.23.3",
+    "@babel/preset-typescript": "^7.23.3",
+    "babel-loader": "^9.1.3",
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -16,5 +21,10 @@
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
     "typescript": "^4.8.3"
-  }
+  },
+  "name": "e-comm-next-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "KenwayTheGreat <ahmad_amir@live.com>",
+  "license": "MIT"
 }
